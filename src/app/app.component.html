@@ -4,8 +4,17 @@
 <p>Start editing to see some magic happen :)</p>
 <h1>OLA MUNDÃO</h1>
 <h2> Teste <h2>
+
+<!-- data binding = associação de dados -->
+
+<!-- interpolação -->
 <my-button label="{{buttonLabel}}"></my-button> <!-- e mesmo coisa  = {{}} ou [] assim com propriedade-->
-<my-button [label]="buttonSecund"></my-button>
 <my-button label="Valeu"></my-button> <!-- maneira sem propriedade-->
+
+<!-- property binding -->
+<my-button [label]="buttonSecund"></my-button> <!-- e mesmo coisa  = {{}} ou [] assim com propriedade-->
 <my-button [label]="'TESTE'"></my-button> <!-- outra maneira sem propriedade-->
 
+
+<!-- Two way data binding-->
+<app-entry-data></app-entry-data>

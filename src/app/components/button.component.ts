@@ -16,7 +16,19 @@ export class Button {
   btvetor: string[] = ['TESTE1', 'TESTE2'];
  btObject = {
  label: 'add ao carrinho',
- label2: 'label2',
+ label2: 'label2 teste',
+
+ }
+
+ getAlert2(){
+ 
+  alert(this.label);
+
+ }
+
+ getAlert(num: number){
+ 
+  alert(num);
 
  }
 
